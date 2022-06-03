@@ -18,7 +18,7 @@ if (today < deadline) {
     x.innerHTML("" + remainingTime);
         
 } else {
-     x.innerHTML("Link");
+     x.innerHTML("<a href=https://open.spotify.com/playlist/5Z7RVz1UswI0fNWvrkNKAM?si=4d847d970c29423e> Maik's suicide note</a>");
 }
 
 
