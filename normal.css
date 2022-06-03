@@ -1,0 +1,50 @@
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+
+    /*background-color: lightgreen;*/
+  }
+
+  .webpage_background {
+    opacity: 0.25;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/*Phone portrait*/  
+@media (max-width: 30rem) {
+    .webpage_background {
+        overflow:hidden;
+        /*background-image: url(electric-gdf2b0e31d_1280.png);*/
+    }
+}
+
+/*Computerscreen*/
+@media (min-width: 30rem) and (min-height: 30rem) {
+    .webpage_background {
+        overflow:hidden;
+        /*background-image: url(guitar-gc1fc3185a_1920_cropped.jpg);*/
+    }
+}
+
+/*Phone in Landscape Mode*/
+@media (min-width: 30rem) and (max-height: 30rem) {
+    .webpage_background {
+        overflow:scroll;
+        /*background-image: url(guitar-gc1fc3185a_1920_cropped.jpg);*/
+    }
+
+    .wrapper {
+        position: relative;
+        overflow: visible;
+      }
+    
+}
