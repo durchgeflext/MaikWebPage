@@ -8,7 +8,6 @@ const secondsInAnHour = 3600;
 const secondsInAMinute = 60;
 
 function load() {
-    x.innerHTML("ERROR");
     while(1) {
         timer();
         setTimeout(nullFunc, 1000);
@@ -21,7 +20,6 @@ function nullFunc() {
 }
 
 function timer() {
-    console.log("here");
     currTime = new Date().getTime();
     const today = Math.floor(currTime / 1000);
 
@@ -29,12 +27,12 @@ function timer() {
 
         until = deadline - today;
         remainingTime = calcTimeString(until);
-        x.innerHTML("" + remainingTime);
+        x.innerHTML = "" + remainingTime;
         
     } else {
-        x.innerHTML("<a href=https://open.spotify.com/playlist/5Z7RVz1UswI0fNWvrkNKAM?si=4d847d970c29423e> Maik's suicide note</a>");
+        x.innerHTML = "<a href=https://open.spotify.com/playlist/5Z7RVz1UswI0fNWvrkNKAM?si=4d847d970c29423e> Maik's suicide note</a>";
     }
-    console.log("Here");
+
 }
 
 
