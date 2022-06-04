@@ -8,6 +8,7 @@ const secondsInAnHour = 3600;
 const secondsInAMinute = 60;
 
 function load() {
+    x.innerHTML("ERROR");
     while(1) {
         timer();
         setTimeout(nullFunc, 1000);
