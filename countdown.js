@@ -1,6 +1,6 @@
 var x;
 
-deadlineDate = new Date(2022, 09, 25, 12, 00, 00, 00).getTime();
+deadlineDate = new Date(2021, 09, 25, 12, 00, 00, 00).getTime();
 const deadline = Math.floor(deadlineDate / 1000);
 
 const secondsInADay = 86400;
