@@ -14,16 +14,17 @@
     opacity: 0.4;
     background-position: bottom;
     position: absolute;
-    width: 100%;
-    height: 100%;
+
     z-index: -1;
 }
 
 /*Phone portrait*/  
 @media (max-width: 30rem) {
     .webpage_background {
-        overflow:visible;
+        overflow:hidden;
         background-image: url(high.jpg);
+        width: 50%;
+        height: 50%;
     }
 }
 
@@ -32,6 +33,8 @@
     .webpage_background {
         overflow:hidden;
         background-image: url(queer.jpg);
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -40,6 +43,8 @@
     .webpage_background {
         overflow:scroll;
         background-image: url(queer.jpg);
+        width: 100%;
+        height: 100%;
     }
 
     .wrapper {
