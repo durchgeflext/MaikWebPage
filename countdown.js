@@ -1,4 +1,4 @@
-var x = document.getElementById("timer");
+var x;
 
 deadlineDate = new Date(2022, 09, 25, 12, 00, 00, 00).getTime();
 const deadline = Math.floor(deadlineDate / 1000);
@@ -8,16 +8,10 @@ const secondsInAnHour = 3600;
 const secondsInAMinute = 60;
 
 function load() {
-    while(1) {
-        timer();
-        setTimeout(nullFunc, 1000);
-    }
-
+    x = document.getElementById("timer");
+    timer();
 }
 
-function nullFunc() {
-
-}
 
 function timer() {
     currTime = new Date().getTime();
