@@ -22,7 +22,7 @@
 /*Phone portrait*/  
 @media (max-width: 30rem) {
     .webpage_background {
-        overflow:hidden;
+        overflow:visible;
         background-image: url(high.jpg);
     }
 }
