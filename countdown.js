@@ -49,7 +49,7 @@ function calcTimeString(time) {
     seconds = overhead % secondsInAMinute;
 
 
-    string = days + ":" + hours + ":" + minutes + ":" + seconds + "<br>remaining";
+    string = days + ":" + hours + ":" + minutes + ":" + seconds;
     return string;
 }
 

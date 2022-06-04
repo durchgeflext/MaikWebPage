@@ -69,23 +69,13 @@
 
 
 h1 {
+    font-size: 4rem;
     margin: 0.25rem;
-    color: #b52121;
+    color: #222222;
     text-align: center;
-    text-shadow: 2px 2px 4px #b52121;
-
-    /*background-color: blueviolet;*/
+    text-shadow: 2px 2px 4px #222222;
 }
 
-
-.header_section_flex {
-    margin:0.25rem;
-    text-align:center;
-    text-shadow: 2px 2px 4px black;
-
-    /*background-color: brown;*/
-
-}
 
 .main_container {
     margin:0.25rem;
@@ -97,6 +87,7 @@ h1 {
 }
 
 .main_section_flex {
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     margin:0.25rem;
@@ -106,31 +97,6 @@ h1 {
     /*background-color: chocolate;*/
 }
 
-#div_stroke_results {
-    font-size: 2rem;
-}
-
-button {
-    margin: 0.25em;
-    background-color: green;
-    width: 8rem;
-    height: 3rem;
-    border-radius: 0.5rem;
-    box-shadow: 2px 2px 4px 1px #000000;
-    font-size: medium;
-    font-weight: bolder;
-}
-
-button:hover {
-    background-color: #b52121;
-    margin: 0.25em;
-    width: 8rem;
-    height: 3rem;
-    border-radius: 0.5rem;
-    box-shadow: 2px 2px 4px 1px #000000;
-    font-size: medium;
-    font-weight: bolder;
-}
 
 .bottom_line {
     margin:0.5em;
@@ -145,4 +111,10 @@ q {
     font-family: "Lucida Handwriting", cursive;
     font-variant: "Lucida Handwriting";
 
+}
+
+#timer {
+    font-size: 3rem;
+    color: #b52121;
+    text-shadow: #b52121;
 }
