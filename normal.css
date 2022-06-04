@@ -11,7 +11,7 @@
   }
 
 .webpage_background {
-    opacity: 0.25;
+    opacity: 0.4;
     background-position: bottom;
     position: absolute;
     width: 100%;
@@ -23,7 +23,7 @@
 @media (max-width: 30rem) {
     .webpage_background {
         overflow:hidden;
-        /*background-image: url(electric-gdf2b0e31d_1280.png);*/
+        background-image: url(high.jpg);
     }
 }
 
@@ -31,7 +31,7 @@
 @media (min-width: 30rem) and (min-height: 30rem) {
     .webpage_background {
         overflow:hidden;
-        /*background-image: url(guitar-gc1fc3185a_1920_cropped.jpg);*/
+        background-image: url(queer.jpg);
     }
 }
 
@@ -39,7 +39,7 @@
 @media (min-width: 30rem) and (max-height: 30rem) {
     .webpage_background {
         overflow:scroll;
-        /*background-image: url(guitar-gc1fc3185a_1920_cropped.jpg);*/
+        background-image: url(queer.jpg);
     }
 
     .wrapper {
